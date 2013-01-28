@@ -11,12 +11,10 @@
     "url": "git://github.com/thlorenz/match-token.git"
   },
   "keywords": [
-    "readline",
-    "matchparens",
-    "shortcuts",
-    "console",
-    "keyboard",
-    "keys"
+    "match",
+    "token",
+    "parse",
+    "lex"
   ],
   "author": "Thorsten Lorenz <thlorenz@gmx.de> (thlorenz.com)",
   "license": "MIT",
