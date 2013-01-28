@@ -4,7 +4,7 @@
   "description": "Given a string and a position, it finds the position of the token matching the one at the given position.",
   "main": "match-token.js",
   "scripts": {
-    "test": "trap ./test/*.js"
+    "test": "node-trap ./test/*.js"
   },
   "repository": {
     "type": "git",
