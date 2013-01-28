@@ -1,6 +1,6 @@
 {
   "name": "match-token",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Given a string and a position, it finds the position of the token matching the one at the given position.",
   "main": "match-token.js",
   "scripts": {
