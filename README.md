@@ -18,7 +18,7 @@ matchToken('{{1}}', 1) // -> 3 (inner brace)
 
 ## Installation
 
-  npm i match-token
+    npm i match-token
 
 ## Features
 
@@ -28,6 +28,9 @@ Matches the following tokens in a given string.
 - `(` with `)` and vice versa
 - `[` with `]` and vice versa
 - quotes `'` and `"`
+
+Returns position of match in the string or `-1` if it was either not found or the the inputs were invalid (i.e. the
+string was `null` or `undefined` or the index was out of range).
 
 ## Caveats
 

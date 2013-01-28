@@ -37,12 +37,11 @@ function findOpener(s, index, closer, opener) {
 
 module.exports = function matchToken(s, index) {
   // TODO:
-  // Sweet string, mark tokens NOT inside quotes, mark quotes as openers/closers
+  // Sweep string, mark tokens NOT inside quotes, mark quotes as openers/closers
   // Possibly collect potential matches in to array, i.e. for } collect all {s so we can count backwards to later find the match
-  if (s === null || s === undefined) throw new Error('The given string cannot be null or undefined');
 
-  var len = s.length;
-  if (index >= len) throw new Error('The given index must be within the given string');
+  if (s === null || s === undefined) return -1;
+  if (index >= s.length) return -1;
 
   // short cut if no desired tokens are contained in the string
   // if (!tokenRegex.test(s)) return -1; // breaks if multiple tests run together
