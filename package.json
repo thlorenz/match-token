@@ -1,0 +1,28 @@
+{
+  "name": "match-token",
+  "version": "0.0.0",
+  "description": "Given a string and a position, it finds the position of the token matching the one at the given position.",
+  "main": "match-token.js",
+  "scripts": {
+    "test": "trap ./test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thlorenz/match-token.git"
+  },
+  "keywords": [
+    "readline",
+    "matchparens",
+    "shortcuts",
+    "console",
+    "keyboard",
+    "keys"
+  ],
+  "author": "Thorsten Lorenz <thlorenz@gmx.de> (thlorenz.com)",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
