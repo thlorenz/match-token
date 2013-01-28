@@ -22,7 +22,7 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "devDependencies": {
+    "trap": "~0.3.2"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
