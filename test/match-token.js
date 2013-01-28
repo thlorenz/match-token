@@ -48,4 +48,11 @@ test('legal inputs', function (t) {
     check(t, 'var a = [ { foo: "bar", bar: "foo" }', 8, -1)
     check(t, 'var a = [ { foo: "bar", bar: "foo" } ]', 8, 37)
   })
+
+  t.test('quotes', function (t) {
+    check(t, '"a"', 0, 2)
+    check(t, "'a'", 0, 2)
+    check(t, 'var a = [ { foo: "bar", bar: "foo" } ]', 17, 21)
+    check(t, 'var a = [ { foo: "bar", bar: "foo" } ]', 29, 33)
+  })
 });
